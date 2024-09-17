@@ -5,13 +5,5 @@
 		"dockerfile": "Dockerfile"
 	},
   "remoteUser": "node"
-  
-],
-"settings": {
-	"editor.fontSize": 32,
-	"terminal.integrated.fontSize": 24
-	"terminal.integrated.fontSize": 24,
-	"editor.wordWrap": "on"
 }
-
-
+}
