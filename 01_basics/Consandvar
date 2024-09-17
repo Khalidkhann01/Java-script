@@ -1,11 +1,13 @@
 const accountid="1122"
 let accountemail="xyz@gmail.com"
+let password="alykhann1"
 let accountcity="Islamabad"
 let accountstate;
 
 accountemail="mansurkhann@gmail.ali"
 accountcity="Rawalpindi"
+password="Alyjann1"
 accountstate;
 
 console.log(accountid);
-console.table([accountid,accountemail,accountcity,accountemail,accountstate])
+console.table([accountid,accountemail,accountcity,accountemail,accountstate,password])
