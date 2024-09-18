@@ -11,3 +11,7 @@ console.log(decimal.toFixed(2))
 console.log(decimal.toPrecision(6))
 let bignumber=10000000
 console.log(bignumber.toLocaleString())
+
+
+
+
