@@ -18,5 +18,5 @@ console.log(Array.from("khalid"))
 
 const array5=[1,2,3[3,1],[4,5],5,6,[8,9]]
 
-const array6=array5.flat(7);
+const array6=array5.flat(Infinity);
 console.log(array6)
