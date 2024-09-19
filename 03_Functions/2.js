@@ -31,11 +31,12 @@ handleObject(user2)
 
 ////functions in arrays
 
-
+const myarray2=[1,2,3,4,5,6]
 const myarray=[2,300,400,500,600,800,900]
 
 function array(getarray){
-    return getarray[3]
+    return getarray[1]
 }
 
 console.log(array(myarray))
+console.log(array(myarray2))
