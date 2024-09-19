@@ -29,9 +29,6 @@ function handleObject(anyobject){
 handleObject(user)
 handleObject(user2)
 
-////
-
-
-
+////functions in arrays
 
 
