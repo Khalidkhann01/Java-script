@@ -5,3 +5,4 @@
 //// always declare variable by let or const(cannot be changed)
 /// declaration of variable by var will make it difficult to debug becaue it will take value even outside the block
 //// if we declare with let it will not come out of the block or effect the remaining coding
+// if we check scope in browser console the global scope is different and in node its different
