@@ -32,3 +32,10 @@ handleObject(user2)
 ////functions in arrays
 
 
+const myarray=[2,300,400,500,600,800,900]
+
+function array(getarray){
+    return getarray[3]
+}
+
+console.log(array(myarray))
