@@ -13,3 +13,16 @@ const {price:RS}=course
 console.log(`the price for this course is ${RS}`)
 
 
+
+
+//{"Name": "Khalid"
+//"Course":"Web development"                    json apis are like objects without names
+//"Price" : "450$"
+//} 
+
+//[
+//{},
+//{},                                             in type of arrays with multiple empty nameless objects
+//{},]
+
+
