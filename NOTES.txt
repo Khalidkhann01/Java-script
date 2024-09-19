@@ -1,0 +1,31 @@
+console.log(gamename.charAT(2)) //tells you the character at number
+
+console.log(gamename.indexOf('T') tells you at which position is the character
+
+console.log(gamename.touppercase()); converts to uppercase
+
+const newstring=gamename.substring(0,5) // dividing string into sub string
+
+const anotherstring=gamename.slice(-8,4)
+slicing string
+
+
+
+console.log(stringname.length)
+//prints the length of the string
+
+
+const onestring="        khalid      "
+console.log(onestring.trim())//// Ends spaces not wanted
+
+
+
+const url="https://google.com/khalid%20khann"
+
+url.replace("%20", "-")  ////replaces the first value with the second
+
+
+url.includes("Khalid") //tells you to know if the keyword is included or not
+
+url.split("_") //////changes it to array
+
