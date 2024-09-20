@@ -1,7 +1,7 @@
 const userisloggedin=true
 const userhascreditcard=true
 const loggedinfromgmail=true
-const loggedinfromemail=true
+const loggedinfromemail=false
 const guest=true
 
 
