@@ -10,3 +10,10 @@ const user= {
 user.username="Umer"
 user.welcome()
 console.log(this)  //////outside context it is empty object in node.
+
+function one(){
+  console.log(this)                       ////////this only work in context
+}
+
+one()
+
