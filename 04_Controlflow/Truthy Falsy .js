@@ -21,3 +21,7 @@ else{
 if(array.length===0){console.log("Array is Empty")}
 
 if(Object.keys(emptyobject).length===0){console.log("Object is empty")}
+
+
+
+
