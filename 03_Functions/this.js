@@ -17,3 +17,19 @@ function one(){
 
 one()
 
+//const two=function(){
+ // console.log(this.username)//        this will come as undefined in regular functioon outside context
+
+//}
+
+////two()
+
+
+
+const two =()=>{            //arrow function
+
+  console.log(this.username)      /////it will also come undefined
+
+}
+
+two()
