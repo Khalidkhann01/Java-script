@@ -45,4 +45,5 @@ languagelevel:3
 }
 ]
 
-array3.forEach((item)=>{(console.log(`The language name is ${item.languagename} and the language level is ${item.languagelevel}`))})
+//array3.forEach((item)=>{(console.log(`The language name is ${item.languagename} and the language level is ${item.languagelevel}`))})
+array3.forEach((mansoor)=>{(console.log(`language ${mansoor.languagename} level ${mansoor.languagelevel}`))})
