@@ -14,7 +14,7 @@ for (const num of myarray) { console.log(`The key of array is ${num}`)
 const map= new Map()
 map.set("IN","India") 
 map.set("US","America") 
-map.set("PK","Pakistan")           //////MAP is an object it holds unique values no repeat in it.
+map.set("PK","Pakistan")           //////MAP is an object it holds unique values no repeat in it   .
 console.log(map)
 
 
