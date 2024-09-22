@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body style="background-color: greenyellow;"
+    
+    <ul><div class="languges">
+        <li>Javaspript</li>
+    </div></ul>
+    
+    
+</body>
+<script>
+    function addlang(langname){
+const li=document.createElement('li');
+        
+li.innerHTML=`${langname}`
+document.queryselector('.language')
+appendChild(li)
+
+    }
+
+    addlang("C++")
+    addlang("Python")
+
+
+
+
+    //optimised way
+    function optimised(langname){
+    const li= document.createElement('li')
+    li.appendChild(document.createTextNode(langname))
+    document.queryselector('.language').appendChild(li)
+    }
+optimised("Node Js")
+
+
+///edit
+
+const secondlang=document.queryselector('li:nth-child(2)')
+const newli=document.createElement('li')
+newli.textContent='Mojo'
+secondlang.replaceWith(newli)
+
+
+///edit 
+const firstlang=document.queryselector('li:first-chlid')
+firstlang.outerHTML='<li>Typescript</li>'
+
+
+//remove
+const lastlang= document.querySelector('li:lastchild')
+lastlang.remove()
+</script>
+
+
+
+</html>
