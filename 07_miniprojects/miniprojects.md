@@ -34,7 +34,7 @@ if(leftclick.target.id==='yellow'){
 ```
 
 
-## Project 2 BMI Calculator
+## Project 2 :BMI Calculator
 
 ```javascript
 
@@ -60,6 +60,31 @@ else{
   results.innerHTML=`<span>${bmi}</span>`
 }
 })
+
+
+```
+
+## Project 3:Digital Clock
+```Javascript
+
+const clock=document.getElementById('clock')
+
+setInterval(function(){
+  let date=new Date()
+
+  clock.innerHTML=date.toLocaleTimeString();
+},1000)
+
+
+
+//OR
+
+const clock=document.querySelector('#clock')
+
+setInterval(function(){
+let date=new Date()
+clock.innerHTML=date.toLocaleTimeString()
+},1000)
 
 
 ```
