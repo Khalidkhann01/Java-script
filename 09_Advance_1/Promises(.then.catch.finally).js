@@ -47,29 +47,30 @@ promisethree.then(function(user){
 
 
 
-new Promise(function(resolve,reject){
-const error=false
-
-
-
-if (!error) {
+const promise4=new Promise(function(resolve,reject){
+    const error=true
     
-    resolve({Username:"Khalid" , Email:"khalidkhann@example.com"})
-}
-else{
-    reject("something went wrong")
-}
-    },1000)
-    .then(function(user){
-        console.log(user)
-        return user.username
-    }).then(function(username){
-console.log(username)
-
-    }).catch(function(error){
-        console.log(error)
-    }).finally(function(){
-        console.log("Error is either resolved or removed")
-    })
-
-    ///error in this
+    
+    
+    if (!error) {
+        
+        resolve({Username:"Khalid" , Email:"khalidkhann@example.com"})
+    }
+    else{
+        reject("something went wrong")
+    }
+        },1000)
+        promise4
+        .then(function(user){
+            console.log(user)
+            return user.username
+        }).then(function(username){
+    console.log(username)
+    
+        }).catch(function(error){
+            console.log(error)
+        }).finally(function(){
+            console.log("Error is either resolved or removed")
+        })
+    
+    
