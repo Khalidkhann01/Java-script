@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React</title>
+    <title>Button</title>
 </head>
+<button>Click</button>
 <body>
-    <button>Button Clicked</button>
+    
 </body>
 <script>
-    class React {
-        constructor(){
-            this.library = "React"
-            this.server = "https://localhost:300"
+class React{
+constructor(){
 
-            //requirement
-            document
-                .querySelector('button')
-                .addEventListener('click', this.handleClick.bind(this))
+    this.library="React"
+    this.server="https://locahost:3000//"
 
-        }
-        handleClick(){
-            console.log("button clicked");
-            console.log(this.server);
-        }
-    }
 
-    const app = new React()
+document.querySelector('Button').addEventListener('click',this.clickhandled.bind(this))
+}
+
+clickhandled(){
+    console.log("Clicked")
+    console.log(this.server)
+}
+
+}
+
+const leftclick = new React()
+
 </script>
 </html>
